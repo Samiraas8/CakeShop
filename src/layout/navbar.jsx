@@ -5,7 +5,7 @@ import { NavLink } from 'react-router'
   return (
     <>
       <div>
-      <div className='flex flex-col-4 justify-evenly'>   
+      <div className='flex flex-col-3 justify-evenly'>   
         <div className='mt-[50px] flex gap-4'>
         <NavLink to={"facebook"}><i class="fa-brands fa-facebook"></i></NavLink>
         <NavLink to={"instagram"}><i class="fa-brands fa-instagram"></i></NavLink>
@@ -13,7 +13,8 @@ import { NavLink } from 'react-router'
         </div>
      
       <NavLink to={"/"}><img src="images/logo.png.webp" className="mt-[30px] ml-[450px] mr-[450px]" alt="logo" /></NavLink>
-      <NavLink to={"/login"} className="text-[16px] mt-[50px]">Login</NavLink>
+      <NavLink to={"cart"} className="text-[14px] mt-[53px]"><i class="fa-solid fa-cart-shopping"></i></NavLink>
+      <NavLink to={"/login"} className="text-[16px] mt-[50px] mr-[50px]">Login</NavLink>
       </div>
       <div className='container flex justify-center gap-10 mt-[20px]'>
        <NavLink to={"/"} className='text-[16px] flex-row'>Home</NavLink>
