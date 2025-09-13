@@ -32,7 +32,7 @@ function Cakes() {
           className="cakes-bg mt-[30px] box-border w-full"
           alt="bg"
         />
-        <h2 className="cakes-title text-[65px] font-bold text-center">
+        <h2 className="cakes-title text-[65px] font-light text-center">
           Delicious Cakes
         </h2>
       </div>
