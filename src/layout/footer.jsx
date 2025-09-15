@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
     <div className='container flex flex-row gap-10'>
-      <div className='flex-col mr-[65px] py-[50px] pr-[30px] box-border '>
+      <div className='flex-col mr-[30px] py-[50px] box-border '>
         <p className='leading-loose'>Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
      <div className='mt-[50px] flex gap-4 box-border'>
         <NavLink to={"/instagram"} className='btn-footer text-[14px] py-4 px-10 '><i class="fa-brands fa-instagram"></i>Instagram</NavLink>

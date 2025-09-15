@@ -1,12 +1,14 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { RouterProvider } from "react-router-dom";
+import { route } from "./routes/route.jsx";
+import { CartProvider } from "./context/CartContext";
 
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import { RouterProvider } from 'react-router'
-import { route } from './routes/route.jsx'
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
 
-createRoot(document.getElementById('root')).render(
-
- <RouterProvider router={route}/>
- 
-)
+    <CartProvider>
+      <RouterProvider router={route} />
+    </CartProvider>
+);

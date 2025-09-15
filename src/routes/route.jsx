@@ -5,7 +5,7 @@ import About from '../../pages/about'
 import Contact from '../../pages/contact'
 import Cakes from '../../pages/cakes'
 import Home from '../../pages/home'
-
+import Cart from '../../pages/cart'
 export let route=createBrowserRouter([
 
   {
@@ -27,10 +27,16 @@ export let route=createBrowserRouter([
             {
                 element:<Contact/>,
                 path:"/contact"
+            },
+            {
+                element:<Cart/>,
+                path:"/cart"
             }
+           
         ]
 
       }
+     
     ]
   )
 

@@ -2,12 +2,15 @@
 
 
 body{
+    display: block;
     background-color: black;
     color: white;
    
 }
+
 .btn-footer{
     border: 1px solid white;
+    border-color: rgba(255, 255, 255, 0.5);
 }
 .cakes-bg{
     position: relative;
@@ -19,11 +22,63 @@ position: absolute;
   left: 140px;
   top: 230px;
 }
+
 .products{
-  
   font-family: "Poiret One", sans-serif;
- 
 }
+
+.video-bg{
+    position: relative;
+    
+}
+
+
+
+.food-lover{
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+}
+
+.star-icon{
+    color: #E5BF4A;
+    font-size: 14px;
+    display: flex;
+    gap: 4px;
+   
+    margin-bottom: 15px;
+}
+
+.border-customer1{
+    border: 1px solid white;
+    border-left: 0;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+    line-height:1.6;
+    font-size: 24px;
+    font-family: "Poiret One", sans-serif;
+   
+}
+.border-customer2{
+    border: 1px solid white;
+    border-right: 0;
+    border-left: 0;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+    line-height: 1.6;
+    font-size: 24px;
+    font-family: "Poiret One", sans-serif;
+}
+
+.border-customer3{
+    border: 1px solid white;
+    border-right: 0;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+    line-height: 1,6;
+    font-size: 24px;
+    font-family: "Poiret One", sans-serif;
+}
+
 .container{
     max-width: 1140px;
     width: 90%;
