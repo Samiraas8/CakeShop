@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
 import {useCart}  from '../context/CartContext';
 import CakeModal from './cakeModal';
+
 function Product({ pro }) {
   const [open, setOpen] = useState(false);
   const { addToCart } = useCart();

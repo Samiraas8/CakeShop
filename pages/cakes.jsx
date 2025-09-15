@@ -20,8 +20,11 @@ function Cakes() {
       <div className="container">
         <h2 className="text-[40px] text-center p-[40px] products">Products</h2>
         <div className="flex-row grid grid-cols-3 gap-6 box-border">
-        <Productss className="col-lg-3 col-md-2 col-sm-1 col-1"/>
+        <Productss />
         </div>
+        
+          
+      
       </div>
       <div className="container">
         <h2 className="text-[40px] text-center p-[40px] products">Follow us on Instagram</h2>
