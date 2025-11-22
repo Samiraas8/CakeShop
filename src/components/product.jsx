@@ -19,6 +19,7 @@ function Product({ pro }) {
         <NavLink to={`/product/${pro.id}`}>
           <h4 className="font-semibold">{pro.title}</h4>
         </NavLink>
+        <p className="text-white-600 mt-2 font-extralight">{pro.category}</p>
         <p className="text-white-600 mt-2">${pro.price}</p>
        
       </div>

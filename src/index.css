@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
 
 
 body{
@@ -7,6 +8,44 @@ body{
     color: white;
    
 }
+.order-button{
+    background: #E5BF4A;
+    border: 1px solid #2A2A2A;
+    color: #0A0A0A !important;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    position: absolute;
+    padding: 22px 41px;
+    text-transform: uppercase;
+    line-height: 15px;
+    border-radius: 0px;
+    top: 480px;
+    left: 150px;
+}
+.order-button:hover{
+    background: none;
+    border:1px solid #E5BF4A;
+    color:#E5BF4A !important
+}
+.send-button{
+    background: #E5BF4A;
+    border: 1px solid #2A2A2A;
+    color: #0A0A0A !important;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 22px 41px;
+    text-transform: uppercase;
+    line-height: 15px;
+    border-radius: 0px;
+}
+.send-button:hover{
+    background: none;
+    border-color: #E5BF4A;
+    color: #E5BF4A !important;
+}
+
 
 .btn-footer{
     border: 1px solid white;
@@ -19,8 +58,14 @@ body{
 .cakes-title{ 
 position: absolute;
   font-family: "Poiret One", sans-serif;
-  left: 140px;
-  top: 230px;
+  left: 150px;
+  top: 260px;
+}
+.home-title{
+  position: absolute;
+  font-family: "Poiret One", sans-serif;
+  left: 150px;
+  top: 260px;  
 }
 
 .products{
@@ -31,7 +76,20 @@ position: absolute;
     position: relative;
     
 }
-
+.price-filter{
+    color:white !important
+}.option{
+    color: black !important;
+}
+.category{
+   color:white !important
+}
+.option{  
+    color: white;
+}
+.category-option{
+    color: black !important;
+}
 
 
 .food-lover{

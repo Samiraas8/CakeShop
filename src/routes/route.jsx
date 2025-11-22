@@ -6,6 +6,10 @@ import Contact from '../../pages/contact'
 import Cakes from '../../pages/cakes'
 import Home from '../../pages/home'
 import Cart from '../../pages/cart'
+import Login from '../../pages/login'
+import Register from '../../pages/register'
+
+
 export let route=createBrowserRouter([
 
   {
@@ -31,6 +35,14 @@ export let route=createBrowserRouter([
             {
                 element:<Cart/>,
                 path:"/cart"
+            },
+            {
+                element:<Login/>,
+                path:"/login"
+            },
+            {
+                element:<Register/>,
+                path:"/register"
             }
            
         ]
@@ -39,6 +51,10 @@ export let route=createBrowserRouter([
      
     ]
   )
+
+
+
+
 
 
 

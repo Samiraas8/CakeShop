@@ -10,7 +10,6 @@ function Footer() {
      <div className='mt-[50px] flex gap-4 box-border'>
         <NavLink to={"/instagram"} className='btn-footer text-[14px] py-4 px-10 '><i class="fa-brands fa-instagram"></i>Instagram</NavLink>
         <NavLink to={"/facebook"} className='btn-footer text-[14px] py-4 px-10 '><i class="fa-brands fa-facebook"></i>Facebook</NavLink>
-        <NavLink to={"/twitter"} className='btn-footer text-[14px] py-4 px-10 '><i class="fa-brands fa-x-twitter"></i>Twitter</NavLink>
         </div>
       </div>
       <div className='flex-col p-[50px] box-border'>
@@ -28,7 +27,7 @@ function Footer() {
       </div>
       <div className='container'>
        <hr className="border-solid border-0.1 text-gray-400 mt-5"></hr>
-       <p className='m-[30px] text-center'>Copyright ©2025 All rights reserved | This template is made with  by <NavLink to={"https://colorlib.com/"} className="text-amber-300">Colorlib</NavLink></p>
+       <p className='m-[30px] text-center'>Copyright ©2025 All rights reserved | This template is made with  by Samira</p>
       </div>
     </>
   )

@@ -3,6 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Products from "../src/data/db.json"
 import Productss from "../src/components/productss";
+import FilteredProducts from "../src/components/FilteredProducts";
 
 
 
@@ -19,12 +20,11 @@ function Cakes() {
 
       <div className="container">
         <h2 className="text-[40px] text-center p-[40px] products">Products</h2>
+        <FilteredProducts/>
         <div className="flex-row grid grid-cols-3 gap-6 box-border">
-        <Productss />
+       
         </div>
         
-          
-      
       </div>
       <div className="container">
         <h2 className="text-[40px] text-center p-[40px] products">Follow us on Instagram</h2>
@@ -41,9 +41,9 @@ function Cakes() {
            <img src="./images/logo.png.webp" alt="" />
            <div className='container flex justify-end gap-10 mt-[20px]'>
                   <NavLink to={"/"} className='text-[16px] flex-row'>HOME</NavLink>
-                   <NavLink to={"cakes"} className='text-[16px] flex-row '>CAKES</NavLink>
-                  <NavLink to={"about"} className='text-[16px] flex-row'>ABOUT</NavLink>
-                  <NavLink to={"contact"} className='text-[16px] flex-row'>CONTACT</NavLink>
+                   <NavLink to={"/cakes"} className='text-[16px] flex-row '>CAKES</NavLink>
+                  <NavLink to={"/about"} className='text-[16px] flex-row'>ABOUT</NavLink>
+                  <NavLink to={"/contact"} className='text-[16px] flex-row'>CONTACT</NavLink>
                   </div>
                   </div>
                    <hr className="border-solid border-0.1 text-gray-400 mt-5"></hr>        

@@ -97,9 +97,9 @@ import { NavLink } from 'react-router'
            <img src="./images/logo.png.webp" alt="" />
            <div className='container flex justify-end gap-10 mt-[20px]'>
                   <NavLink to={"/"} className='text-[16px] flex-row'>HOME</NavLink>
-                   <NavLink to={"cakes"} className='text-[16px] flex-row '>CAKES</NavLink>
-                  <NavLink to={"about"} className='text-[16px] flex-row'>ABOUT</NavLink>
-                  <NavLink to={"contact"} className='text-[16px] flex-row'>CONTACT</NavLink>
+                   <NavLink to={"/cakes"} className='text-[16px] flex-row '>CAKES</NavLink>
+                  <NavLink to={"/about"} className='text-[16px] flex-row'>ABOUT</NavLink>
+                  <NavLink to={"/contact"} className='text-[16px] flex-row'>CONTACT</NavLink>
                   </div>
                   </div>
                    <hr className="border-solid border-0.1 text-gray-400 mt-5"></hr>        
